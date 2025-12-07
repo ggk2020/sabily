@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Sabily Enterprise - Leading provider of IoT and Smart Home Device solutions. Transform your space with cutting-edge automation technology.">
+    <meta name="keywords" content="IoT, Smart Home, Home Automation, Smart Devices, Sabily Enterprise">
+    <meta name="theme-color" content="#11998e">
+
+    <!-- PWA Meta Tags -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Sabily Enterprise">
+
+    <title>Sabily Enterprise - IoT & Smart Home Solutions</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div class="loading" id="loading">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav-container">
+            <div class="logo">Sabily Enterprise</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <img src="/root/.gemini/antigravity/brain/d44a93b6-3079-4578-9d48-10ba661cfe24/hero_background_1764861015256.png"
+            alt="Smart Home Technology" class="hero-bg">
+        <div class="hero-content">
+            <h1>Transform Your Space with Smart Technology</h1>
+            <p>Leading provider of IoT and Smart Home Device solutions. Experience the future of automation with Sabily
+                Enterprise.</p>
+            <div class="cta-buttons">
+                <button class="btn btn-primary"
+                    onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Get
+                    Started</button>
+                <button class="btn btn-secondary"
+                    onclick="document.getElementById('services').scrollIntoView({behavior: 'smooth'})">Our
+                    Services</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section" id="services">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2>Our Services</h2>
+                <p>Comprehensive IoT and Smart Home solutions tailored to your needs</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card animate-on-scroll">
+                    <img src="/root/.gemini/antigravity/brain/d44a93b6-3079-4578-9d48-10ba661cfe24/iot_services_1764861075064.png"
+                        alt="IoT Solutions" class="service-icon">
+                    <h3>IoT Solutions</h3>
+                    <p>Cutting-edge Internet of Things solutions that connect your devices and streamline operations.
+                    </p>
+                    <ul class="service-features">
+                        <li>Device Integration & Connectivity</li>
+                        <li>Real-time Data Analytics</li>
+                        <li>Cloud-based Management</li>
+                        <li>Scalable Infrastructure</li>
+                        <li>Security & Encryption</li>
+                    </ul>
+                </div>
+
+                <div class="service-card animate-on-scroll">
+                    <img src="/root/.gemini/antigravity/brain/d44a93b6-3079-4578-9d48-10ba661cfe24/smart_home_1764861310977.png"
+                        alt="Smart Home Devices" class="service-icon">
+                    <h3>Smart Home Devices</h3>
+                    <p>Transform your home into an intelligent living space with our advanced automation systems.</p>
+                    <ul class="service-features">
+                        <li>Lighting Control Systems</li>
+                        <li>Climate & Temperature Management</li>
+                        <li>Security & Surveillance</li>
+                        <li>Voice Assistant Integration</li>
+                        <li>Energy Monitoring</li>
+                    </ul>
+                </div>
+
+                <div class="service-card animate-on-scroll">
+                    <div
+                        style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); height: 200px; border-radius: 16px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+                        <span style="font-size: 4rem;">🔧</span>
+                    </div>
+                    <h3>Installation & Support</h3>
+                    <p>Professional installation and ongoing support to ensure your systems run flawlessly.</p>
+                    <ul class="service-features">
+                        <li>Expert Installation Services</li>
+                        <li>24/7 Technical Support</li>
+                        <li>System Maintenance</li>
+                        <li>Training & Consultation</li>
+                        <li>Warranty & Guarantees</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2>Why Choose Sabily Enterprise?</h2>
+                <p>We're committed to delivering excellence in every project</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-item animate-on-scroll">
+                    <div class="about-icon">🚀</div>
+                    <h3>Innovation First</h3>
+                    <p>We leverage the latest technologies to provide cutting-edge solutions that keep you ahead of the
+                        curve.</p>
+                </div>
+
+                <div class="about-item animate-on-scroll">
+                    <div class="about-icon">💎</div>
+                    <h3>Premium Quality</h3>
+                    <p>Only the highest quality devices and components, ensuring reliability and longevity.</p>
+                </div>
+
+                <div class="about-item animate-on-scroll">
+                    <div class="about-icon">🤝</div>
+                    <h3>Customer Focused</h3>
+                    <p>Your satisfaction is our priority. We provide personalized solutions and dedicated support.</p>
+                </div>
+
+                <div class="about-item animate-on-scroll">
+                    <div class="about-icon">🔒</div>
+                    <h3>Secure & Private</h3>
+                    <p>Advanced security measures to protect your data and ensure your privacy at all times.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2>Get In Touch</h2>
+                <p>Ready to transform your space? Contact us today!</p>
+            </div>
+
+            <div class="contact-content animate-on-scroll">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your Name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required
+                            placeholder="Tell us about your project..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#" aria-label="Facebook">📘</a>
+                <a href="#" aria-label="Twitter">🐦</a>
+                <a href="#" aria-label="LinkedIn">💼</a>
+                <a href="#" aria-label="Instagram">📷</a>
+            </div>
+            <p>&copy; 2025 Sabily Enterprise. All rights reserved.</p>
+            <p style="font-size: 0.875rem; margin-top: 0.5rem;">Transforming spaces with IoT & Smart Home technology</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
